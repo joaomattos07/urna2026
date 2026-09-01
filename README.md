@@ -26,7 +26,7 @@ The update included interface improvements, code organization, and responsivenes
 
 ## 🛠️ Technologies
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,git,github,vscode,figma,ps&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js&theme=dark)](https://skillicons.dev)
 
 ## 🚀 Live Demo
 
