@@ -1,54 +1,72 @@
-# 🗳️ Simulação de Urna Eletrônica
+# 🗳️ Electronic Voting Machine Simulator
 
-> Projeto educacional de uma simulação de urna eletrônica, desenvolvido com HTML, CSS e JavaScript.
+> Educational electronic voting machine simulator built with HTML, CSS, and JavaScript.
 
-[![Acessar demonstração](https://img.shields.io/badge/Acessar%20demonstração-1f6feb?style=for-the-badge&logo=githubpages&logoColor=white)](https://joaomattos07.github.io/urna2026/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-1f6feb?style=for-the-badge&logo=githubpages&logoColor=white)](https://joaomattos07.github.io/urna2026/)
 
-## 📌 Sobre o projeto
+## 📌 About the Project
 
-Esta aplicação simula o processo de votação em uma urna eletrônica de forma visual e interativa. O projeto foi criado inicialmente durante o Ensino Médio Técnico (2022–2024) e, posteriormente, atualizado como um projeto de reaproveitamento.
+This application simulates the electronic voting process through a visual and interactive interface.
 
-Na atualização, foram realizadas melhorias na interface, na organização do código e na responsividade, tornando a experiência mais agradável em diferentes tamanhos de tela.
+The project was originally developed during my Technical High School Program in Information Technology (2022–2024) and was later updated as a way to revisit and improve the project.
 
-> Este projeto é apenas uma simulação para fins educacionais e não possui relação com o sistema oficial de votação.
+The update included interface improvements, code organization, and responsiveness for a better experience across different screen sizes.
 
-## ✨ Destaques
+> This project is an educational simulation and is not related to the official Brazilian voting system.
 
-- Interface inspirada em uma urna eletrônica
-- Interação de voto simulada com JavaScript
-- Layout responsivo para diferentes dispositivos
-- Organização do projeto em arquivos de HTML, CSS e JavaScript
-- Projeto revisitado e modernizado após sua criação inicial
+## ✨ Features
 
-## 🛠️ Tecnologias
+- Electronic voting machine-inspired interface
+- Interactive voting simulation with JavaScript
+- Candidate information display
+- Blank vote, correction, and confirmation buttons
+- Sound effects for user interactions
+- Responsive layout for different devices
+- Well-organized HTML, CSS, JavaScript, images, and audio files
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## 🛠️ Technologies
 
-## 🚀 Demonstração
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,git,github,vscode,figma,ps&theme=dark)](https://skillicons.dev)
 
-Acesse o projeto online: [joaomattos07.github.io/urna2026](https://joaomattos07.github.io/urna2026/)
+## 🚀 Live Demo
 
-## 💻 Como executar localmente
+Access the project online: [joaomattos07.github.io/urna2026](https://joaomattos07.github.io/urna2026/)
 
-1. Clone o repositório:
+## 📁 Project Structure
+
+```text
+urna2026/
+├── audio/         # Sound effects
+├── css/           # Page styles
+├── images/        # Candidate and interface images
+├── js/            # Voting logic and data
+├── index.html     # Main structure
+└── manifest.json  # Web app configuration
+```
+
+## 💻 Running Locally
+
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/joaomattos07/urna2026.git
    ```
 
-2. Acesse a pasta do projeto:
+2. Go to the project folder:
 
    ```bash
    cd urna2026
    ```
 
-3. Abra o arquivo `index.html` no navegador.
+3. Open `index.html` in your browser.
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Desenvolvido por [João Pedro de Mattos](https://github.com/joaomattos07).
+Developed by [João Pedro de Mattos](https://github.com/joaomattos07).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaopedrodemattos/)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedro261206@gmail.com)
+## 🌐 Contact
+
+<p>
+  <a href="https://www.linkedin.com/in/joaopedrodemattos/"><img src="https://skillicons.dev/icons?i=linkedin" height="48" alt="LinkedIn" /></a>
+  <a href="mailto:joaopedro261206@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="48" alt="Gmail" /></a>
+</p>
