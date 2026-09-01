@@ -47,7 +47,7 @@ function atualizaInterface() {
         descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
         lateral.innerHTML = candidato.fotos.map(foto => `
             <div class="d-1-image ${foto.small ? 'small' : ''}">
-                <img src="Images/${foto.url}" alt="" />
+                <img src="images/${foto.url}" alt="" />
                 ${foto.legenda}
             </div>`).join('');
     } else {
