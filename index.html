@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simulador de Urna Eletrônica</title>
+        <meta name="description" content="Simulador de Urna Eletrônica">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="manifest" href="manifest.json">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="192x192" href="images/urna.png">
+        <meta name="theme-color" content="#0F1B24">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Urna">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-icon-precomposed" href="images/urna.png">
+
+        <meta name="msapplication-TileImage" content="images/urna.png">
+        <meta name="msapplication-TileColor" content="#0F1B24">
+
+        <script>
+        if (window.location.protocol != "https:" && window.location.hostname == "joaomattos07.github.io")
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        </script>
+    </head>
+    <body>
+        <main class="pagina">
+            <header class="apresentacao">
+                <h1>SIMULADOR DE URNA ELETRÔNICA</h1>
+                <p>UMA RECRIAÇÃO DA EXPERIÊNCIA DE VOTAÇÃO DA URNA ELETRÔNICA BRASILEIRA.</p>
+            </header>
+            <div class="urna-wrapper">
+            <div class="urna" role="group" aria-label="Urna eletrônica">
+                <div class="tela" aria-live="polite">
+                    <div class="d-1">
+                        <div class="d-1-left">
+                            <div class="d-1-1">
+                                <span>SEU VOTO PARA</span>
+                            </div>
+                            <div class="d-1-2">
+                                <span>VEREADOR</span>
+                            </div>
+                            <div class="d-1-3">
+                                <div class="numero pisca"></div>
+                                <div class="numero"></div>
+                            </div>
+                            <div class="d-1-4">
+                                Nome: FULANO<br/>
+                                Partido: NOVO<br/>
+                                Vice-Prefeito: BELTRANO<br/>
+                            </div>
+                        </div>
+                        <div class="d-1-right">
+                            <div class="d-1-image">
+                                <img src="images/hagar.PNG" alt="" />
+                                Prefeito
+                            </div>
+                            <div class="d-1-image small">
+                                <img src="images/guy.PNG" alt="" />
+                                Vice-Prefeito
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-2">
+                        Aperte a tela: <br/>
+                        CONFIRMA para CONFIRMAR este voto<br/>
+                        CORRIGE para CORRIGIR este voto
+                    </div>
+                </div>
+                <div class="esquerda">
+                    <div class="topo-esquerda">
+                        <div class="logo"> <img src="images/brasao.png" alt="Brasão da Justiça Eleitoral" /> </div>
+                        <div class="Justica-eleitoral">JUSTIÇA<br/>ELEITORAL</div>
+                    </div>
+                    <div class="teclado">
+                        <div class="teclado--linha">
+                            <button type="button" class="teclado--botao" data-numero="1">1</button>
+                            <button type="button" class="teclado--botao" data-numero="2">2</button>
+                            <button type="button" class="teclado--botao" data-numero="3">3</button>
+                        </div>
+                        <div class="teclado--linha">
+                            <button type="button" class="teclado--botao" data-numero="4">4</button>
+                            <button type="button" class="teclado--botao" data-numero="5">5</button>
+                            <button type="button" class="teclado--botao" data-numero="6">6</button>
+                        </div>
+                        <div class="teclado--linha">
+                            <button type="button" class="teclado--botao" data-numero="7">7</button>
+                            <button type="button" class="teclado--botao" data-numero="8">8</button>
+                            <button type="button" class="teclado--botao" data-numero="9">9</button>
+                        </div>
+                        <div class="teclado--linha">
+                            <button type="button" class="teclado--botao" data-numero="0">0</button>
+                        </div>
+                        <div class="teclado--linha">
+                            <button type="button" class="teclado--botao botao--branco" id="btn-branco">BRANCO</button>
+                            <button type="button" class="teclado--botao botao--corrige" id="btn-corrige">CORRIGE</button>
+                            <button type="button" class="teclado--botao botao--confirma" id="btn-confirma">CONFIRMA</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            <aside class="legenda-candidatos" aria-label="Lista de candidatos para simulação">
+                <h2>CANDIDATOS PARA SIMULAÇÃO</h2>
+                <div id="legenda-conteudo"></div>
+            </aside>
+
+            
+            </div>
+
+            <p class="reiniciar"><a href="index.html">SIMULAR NOVAMENTE</a></p>
+
+            <footer class="ficha-tecnica">
+                <dl>
+                    <div>
+                        <dt>Código</dt>
+                        <dd><a href="https://github.com/joaomattos07" target="_blank" rel="noopener">GitHub</a></dd>
+                    </div>
+                </dl>
+            </footer>
+        </main>
+
+        <script src="js/etapas.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/install.js"></script>
+    </body>
+</html>
